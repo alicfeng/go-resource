@@ -18,8 +18,11 @@ func main() {
 
 }
 
+/**
+资源路由事件业务处理
+*/
 func resourceHandler(w http.ResponseWriter, r *http.Request) {
-	data, err := json.Marshal(Resource)
+	data, err := json.Marshal(bean.Resource)
 	if err != nil {
 		fmt.Println("Json parse error")
 		return
