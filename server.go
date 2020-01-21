@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+
+	"github.com/alicfeng/go-resource/bean"
 )
 
 func main() {
